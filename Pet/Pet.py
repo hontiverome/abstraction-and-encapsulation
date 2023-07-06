@@ -32,3 +32,6 @@ class Pet:
     # gets age
     def getAge(self):
         return self.__age
+
+# HONTIVEROS, JEROME ANDREI O.
+# BSCPE 1-5
