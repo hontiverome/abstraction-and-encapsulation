@@ -13,3 +13,7 @@ class Pet:
     # animal type method
     def set_animal_type(self, animal_type):
         self.__animal_type = animal_type
+    
+    # age method
+    def set_age(self, age):
+        self.__age = age
