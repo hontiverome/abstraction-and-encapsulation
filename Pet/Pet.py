@@ -25,5 +25,10 @@ class Pet:
         return self.__animal_type
     
 # age method
+    # sets age
     def set_age(self, age):
         self.__age = age
+    
+    # gets age
+    def get_age(self):
+        return self.__age
