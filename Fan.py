@@ -1,9 +1,9 @@
 # fan class
 # create class
 class Fan:
-    __slow=1
-    __medium=2
-    __fast=3
+    slow=1
+    medium=2
+    fast=3
 
 # intialize variables
     def __init__(self, speed=1,radius=5,color="blue",on=False) -> None:
