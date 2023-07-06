@@ -50,3 +50,6 @@ class Fan:
 # set color method
     def set_color(self, color):
         self.__color = color
+        
+# HONTIVEROS, JEROME ANDREI O.
+# BSCPE 1-5
