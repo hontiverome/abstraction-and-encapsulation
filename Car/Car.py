@@ -23,3 +23,5 @@ class Car:
     def get_speed(self):
         return self.__speed
     
+# HONTIVEROS, JEROME ANDREI O.
+# BSCPE 1-5
