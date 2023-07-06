@@ -17,3 +17,6 @@ print("\nPet's Information:")
 print("Name:", pet.getName())
 print("Animal Type:", pet.getAnimalType())
 print("Age:", pet.getAge())
+
+# HONTIVEROS, JEROME ANDREI O.
+# BSCPE 1-5
