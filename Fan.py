@@ -34,3 +34,11 @@ class Fan:
             self.__radius = radius
         else:
             raise ValueError("Invalid radius value")
+
+# checks if on method
+    def is_on(self):
+        return self.__on
+
+# turns fan on method 
+    def set_on(self, on):
+        self.__on = on
