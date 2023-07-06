@@ -1,7 +1,7 @@
 # pet class
 class Pet:
     # create constructor
-    def __init__(self):
+    def __init__(self, name, animalType, age):
         self.__name = ""
         self.__animalType = ""
         self.__age = 0
