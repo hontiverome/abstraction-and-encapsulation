@@ -16,7 +16,6 @@ for i in range(5):
 # braking
 brakingTitle = pyfiglet.figlet_format("Braking", font="lcd")
 cprint("\n" +  "="*50 + "\n" + colored(brakingTitle), "red", attrs=["bold"])
-print("\nBraking Method")
 for i in range(5):
     time.sleep(0.5)
     car.brake()
