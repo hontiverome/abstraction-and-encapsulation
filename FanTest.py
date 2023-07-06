@@ -1,5 +1,6 @@
 from Fan import Fan
 import time
+# execute test fan
 class Test:
     def __init__(self):
         fan1 = Fan(Fan.fast, 10, "yellow", True)
@@ -30,3 +31,6 @@ class Test:
 # executes program by creating an instance
 if __name__ == '__main__':
     test = Test()
+    
+# HONTIVEROS, JEROME ANDREI O.
+# BSCPE 1-5
