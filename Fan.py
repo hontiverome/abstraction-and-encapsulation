@@ -42,3 +42,11 @@ class Fan:
 # turns fan on method 
     def set_on(self, on):
         self.__on = on
+        
+# color checker method
+    def get_color(self):
+        return self.__color
+    
+# set color method
+    def set_color(self, color):
+        self.__color = color
