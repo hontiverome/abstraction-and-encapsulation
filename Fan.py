@@ -23,3 +23,7 @@ class Fan:
             self.__speed = speed   
         else:
             raise ValueError("Invalid speed value.")
+        
+# get radius method
+    def get_radius(self):
+        return self.__radius
