@@ -6,3 +6,8 @@ class Car:
         self.__year_model = year_model
         self.__maker = maker
         self.__speed = 0
+    
+    # methods
+    # method that increases car speed
+    def accelerate(self):
+        self.__speed += 5
