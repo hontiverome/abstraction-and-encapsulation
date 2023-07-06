@@ -27,3 +27,10 @@ class Fan:
 # get radius method
     def get_radius(self):
         return self.__radius
+    
+# radius setter method
+    def set_radius(self, radius):
+        if radius > 0:
+            self.__radius = radius
+        else:
+            raise ValueError("Invalid radius value")
