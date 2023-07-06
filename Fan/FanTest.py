@@ -1,13 +1,15 @@
 from Fan import Fan
 import time
+import pyfiglet
+from termcolor import cprint, colored
 # execute test fan
 class Test:
     def __init__(self):
         fan1 = Fan(Fan.fast, 10, "yellow", True)
         fan2 = Fan(Fan.medium, 5, "blue", False)
-
+        fan_1 = pyfiglet.figlet_format("FAN #1", font= "lcd")
         time.sleep(0.5)
-        print("Fan 1:")
+        cprint(colored(fan_1) + "\n----------------------------------------------", "red", attrs=["bold"])
         time.sleep(0.3)
         print("Speed of the fan:", fan1.get_speed())
         time.sleep(0.3)
@@ -17,8 +19,10 @@ class Test:
         time.sleep(0.3)
         print("Is On:", fan1.is_on())
 
+        print("\n\n\n")
+        fan_2 = pyfiglet.figlet_format("FAN #2", font= "lcd")
         time.sleep(1)
-        print("\nFan 2:")
+        cprint(colored(fan_2) + "\n----------------------------------------------", "red", attrs=["bold"])
         time.sleep(0.3)
         print("Speed:", fan2.get_speed())
         time.sleep(0.3)

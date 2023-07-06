@@ -1,6 +1,5 @@
 # fan class
 # create class
-from colorama import Fore,Style
 class Fan:
     slow=1
     medium=2
@@ -51,12 +50,6 @@ class Fan:
 # set color method
     def set_color(self, color):
         self.__color = color
-
- def display_fan_properties(self):
-        print(Style.BRIGHT + Fore.CYAN + "  Speed      : " + '\033[0m', Fore.YELLOW, self.__speed)
-        print(Style.BRIGHT + Fore.CYAN + "  Radius     : " + '\033[0m', Fore.YELLOW, self.__radius)
-        print(Style.BRIGHT + Fore.CYAN + "  Color      : " + '\033[0m', Fore.YELLOW, self.__color)
-        print(Style.BRIGHT + Fore.CYAN + "  Status(ON) : " + '\033[0m', Fore.YELLOW, self.__status, '\033[0m', "\n")
         
 # HONTIVEROS, JEROME ANDREI O.
 # BSCPE 1-5
