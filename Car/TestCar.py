@@ -1,6 +1,7 @@
 from Car import Car
 import time
-# create car object
+
+# create object
 car = Car(2023, "Porsche")
 
 # acceleration 
@@ -16,3 +17,6 @@ for i in range(5):
     time.sleep(0.5)
     car.brake()
     print("Braking... Current Speed:", car.get_speed())
+    
+# HONTIVEROS, JEROME ANDREI O.
+# BSCPE 1-5
